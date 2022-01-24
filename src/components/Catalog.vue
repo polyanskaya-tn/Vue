@@ -9,56 +9,56 @@
 </div>
 <div class="row products">
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-17/">
+		<a href="/#/product/1">
 			<img src="../images/17-2.png" alt="">
 			<p class="name">Тренажер уличный №17</p>
 			<div class="price">9 000&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-18/">
+		<a href="/#/product/2">
 			<img src="../images/18-md.png" alt="">
 			<p class="name">Тренажер уличный №18</p>
 			<div class="price">23 200&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-19/">
+		<a href="/#/product/3">
 			<img src="../images/19-md.png" alt="">
 			<p class="name">Тренажер уличный №19</p>
 			<div class="price">23 200&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-20/">
+		<a href="/#/product/4">
 			<img src="../images/20-md.png" alt="">
 			<p class="name">Тренажер уличный №20</p>
 			<div class="price">23 200&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-21/">
+		<a href="/#/product/5">
 			<img src="../images/21-md.png" alt="">
 			<p class="name">Тренажер уличный №21</p>
 			<div class="price">23 200&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-22/">
+		<a href="/#/product/6">
 			<img src="../images/22-md.png" alt="">
 			<p class="name">Тренажер уличный №22</p>
 			<div class="price">42 050&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-23/">
+		<a href="/#/product/7">
 			<img src="../images/23-md.png" alt="">
 			<p class="name">Тренажер уличный №23</p>
 			<div class="price">33 350&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 	<div class="col-3">	
-		<a href="/product/outdoor-fitness-equipment/tren-24/">
+		<a href="/#/product/8">
 			<img src="../images/24-md.png" alt="">
 			<p class="name">Тренажер уличный №24</p>
 			<div class="price">10 500&nbsp;<span>руб.</span></div>
