@@ -8,60 +8,11 @@
 	</div>
 </div>
 <div class="row products">
-	<div class="col-3">	
-		<a href="/#/product/1">
-			<img src="../images/17-2.png" alt="">
-			<p class="name">Тренажер уличный №17</p>
-			<div class="price">9 000&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/2">
-			<img src="../images/18-md.png" alt="">
-			<p class="name">Тренажер уличный №18</p>
-			<div class="price">23 200&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/3">
-			<img src="../images/19-md.png" alt="">
-			<p class="name">Тренажер уличный №19</p>
-			<div class="price">23 200&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/4">
-			<img src="../images/20-md.png" alt="">
-			<p class="name">Тренажер уличный №20</p>
-			<div class="price">23 200&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/5">
-			<img src="../images/21-md.png" alt="">
-			<p class="name">Тренажер уличный №21</p>
-			<div class="price">23 200&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/6">
-			<img src="../images/22-md.png" alt="">
-			<p class="name">Тренажер уличный №22</p>
-			<div class="price">42 050&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/7">
-			<img src="../images/23-md.png" alt="">
-			<p class="name">Тренажер уличный №23</p>
-			<div class="price">33 350&nbsp;<span>руб.</span></div>
-		</a>
-	</div>
-	<div class="col-3">	
-		<a href="/#/product/8">
-			<img src="../images/24-md.png" alt="">
-			<p class="name">Тренажер уличный №24</p>
-			<div class="price">10 500&nbsp;<span>руб.</span></div>
+	<div class="col-3" v-for="item in products" v-bind:key="item.name">	
+		<a :href="item.href">
+			<img :src="item.img" alt="">
+			<p class="name">{{item.name}}</p>
+			<div class="price">{{item.price}}&nbsp;<span>руб.</span></div>
 		</a>
 	</div>
 </div>
@@ -69,7 +20,22 @@
 
 <script>
 export default {
-  name: 'Catalog'
+  name: 'Catalog',
+  data() {
+	  return {
+		  products: [
+			  {name: 'Тренажер уличный №17', href: "/#/product/1", img: require('../assets/17-2.png'), price: '9 000'},
+			  {name: 'Тренажер уличный №18', href: "/#/product/2", img: require('../assets/18-md.png'), price: '23 200'},
+			  {name: 'Тренажер уличный №19', href: "/#/product/3", img: require('../assets/19-md.png'), price: '23 200'},
+			  {name: 'Тренажер уличный №20', href: "/#/product/4", img: require('../assets/20-md.png'), price: '23 200'},
+			  {name: 'Тренажер уличный №21', href: "/#/product/5", img: require('../assets/21-md.png'), price: '23 200'},
+			  {name: 'Тренажер уличный №22', href: "/#/product/6", img: require('../assets/22-md.png'), price: '42 050'},
+			  {name: 'Тренажер уличный №23', href: "/#/product/7", img: require('../assets/23-md.png'), price: '33 350'},
+			  {name: 'Тренажер уличный №24', href: "/#/product/8", img: require('../assets/24-md.png'), price: '10 500'}
+		  ],
+		  publicPath: process.env.BASE_URL
+	  }
+  }
 }
 </script>
 
