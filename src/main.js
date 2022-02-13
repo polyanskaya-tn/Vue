@@ -1,11 +1,11 @@
 import { createApp } from 'vue'
 import App from './App.vue'
 import {createRouter, createWebHashHistory} from 'vue-router'
-import Catalog from './components/Catalog.vue'
 import Detail from './components/Detail.vue'
+import Main1 from './components/Main1.vue'
 
 const routes = [
-    { path: '/', component: Catalog },
+    { path: '/', component: Main1 },
     { path: '/product/:id', component: Detail },
   ]
 //http://localhost:8081/#/about
